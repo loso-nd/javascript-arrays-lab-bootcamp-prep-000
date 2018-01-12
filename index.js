@@ -11,8 +11,3 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
   return kittens
 }
-
-function prependKitten(name){
-  kitten = [...kittens, "name"]
-  return kittens
-}
